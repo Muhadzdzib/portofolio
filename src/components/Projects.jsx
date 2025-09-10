@@ -237,7 +237,7 @@ export default function Projects() {
       </div>
 
       <div className="w-full">
-        <h2 className="text-4xl md:text-5xl font-bold text-white font-Amoria text-right">
+        <h2 className="text-4xl md:text-5xl font-bold text-white font-Amoria text-center mt-10">
           Poster Design
         </h2>
         <div className="relative h-[600px] w-full">
