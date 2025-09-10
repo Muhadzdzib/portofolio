@@ -1,0 +1,64 @@
+html {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: "Amoria";
+  src: url("./assets/font/AMORIA.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Antic";
+  src: url("./assets/font/Antic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import "tailwindcss";
+
+@theme{
+    --font-Amoria: Amoria, "sans-serif";
+    }
+
+@theme{
+--font-Antic: Antic, "sans-serif";
+}
+
+.clip-wave {
+  clip-path: path(
+    "M 0 0 C 50 200, 150 0, 300 150 C 450 300, 600 50, 600 300 L 600 0 Z"
+  );
+}
+
+@layer utilities {
+  .font-Amoria {
+    font-family: 'Amoria', cursive;
+  }
+
+  .font-Antic {
+    font-family: 'Antic', sans-serif;
+  }
+
+  .animate-loop {
+    animation: loop 20s linear infinite;
+  }
+
+  @keyframes loop {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+  }
+}
+
+@keyframes reveal {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(100%); }
+}
+
+.animate-reveal {
+  animation: reveal 1.2s ease forwards;
+}
