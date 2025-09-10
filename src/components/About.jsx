@@ -58,7 +58,7 @@ export default function About() {
       className="min-h-screen w-full bg-black flex flex-col md:flex-row items-center justify-between px-6 md:px-12 py-24"
     >
       {/* Kiri - Text + Logo */}
-      <div className="w-full md:w-1/2 min-h-[600px] flex flex-col justify-between text-white">
+      <div className="w-full md:w-1/2 min-h-[600px] flex flex-col justify-center text-white">
         {/* Atas: Text */}
         <div>
           <TextType
@@ -100,7 +100,7 @@ export default function About() {
             Expertise
           </h3>
           <div
-            className="relative overflow-hidden pt-6"
+            className="relative overflow-hidden pt-4"
             style={{ height: "75px" }}
           >
             <LogoLoop
