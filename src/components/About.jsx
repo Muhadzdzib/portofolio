@@ -1,4 +1,4 @@
-import profilePic from "../assets/img/Galang.png";
+import profilePic from "../assets/img/Galang.jpg";
 import LogoLoop from "./LogoLoop";
 import TextType from "./TextType";
 
@@ -125,7 +125,7 @@ export default function About() {
         <img
           src={profilePic}
           alt="Galang"
-          className="relative z-10 w-64 sm:w-72 md:w-96 h-auto object-cover grayscale hover:grayscale-0 transition-all duration-500 rounded-2xl shadow-2xl"
+          className="relative z-10 w-64 sm:w-72 md:w-96 h-auto object-cover border-3 border-[#FFA335] grayscale hover:grayscale-0 transition-all duration-500 rounded-2xl shadow-2xl"
         />
       </div>
     </section>
