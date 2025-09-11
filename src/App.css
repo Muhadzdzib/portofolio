@@ -4,29 +4,30 @@ html {
 
 @import "tailwindcss";
 
-
 @font-face {
   font-family: "Amoria";
-  src: url("./assets/font/AMORIA.otf") format("truetype");
+  src: url("./assets/font/AMORIA.woff2") format("opentype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Antic";
-  src: url("./assets/font/Antic.ttf") format("truetype");
+  src: url("./assets/font/Antic.woff2") format("truetype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @import "tailwindcss";
 
-@theme{
-    --font-Amoria: Amoria, "sans-serif";
-    }
+@theme {
+  --font-Amoria: Amoria, "sans-serif";
+}
 
-@theme{
---font-Antic: Antic, "sans-serif";
+@theme {
+  --font-Antic: Antic, "sans-serif";
 }
 
 .clip-wave {
@@ -37,11 +38,11 @@ html {
 
 @layer utilities {
   .font-Amoria {
-    font-family: 'Amoria', cursive;
+    font-family: "Amoria", cursive;
   }
 
   .font-Antic {
-    font-family: 'Antic', sans-serif;
+    font-family: "Antic", sans-serif;
   }
 
   .animate-loop {
@@ -49,14 +50,22 @@ html {
   }
 
   @keyframes loop {
-    from { transform: translateX(0); }
-    to { transform: translateX(-100%); }
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
   }
 }
 
 @keyframes reveal {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(100%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
 
 .animate-reveal {

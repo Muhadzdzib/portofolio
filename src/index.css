@@ -1,28 +1,28 @@
-
-
 @font-face {
   font-family: "Amoria";
-  src: url("./assets/font/AMORIA.otf") format("truetype");
+  src: url("./assets/font/AMORIA.woff2") format("opentype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Antic";
-  src: url("./assets/font/Antic.ttf") format("truetype");
+  src: url("./assets/font/Antic.woff2") format("truetype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @import "tailwindcss";
 
- @theme{
-    --font-Amoria: Amoria, "sans-serif";
-    }
+@theme {
+  --font-Amoria: Amoria, "sans-serif";
+}
 
-    @theme{
-    --font-Antic: Antic, "sans-serif";
-    }
+@theme {
+  --font-Antic: Antic, "sans-serif";
+}
 
 .clip-wave {
   clip-path: path(
