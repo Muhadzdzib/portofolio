@@ -138,11 +138,7 @@ export default function Projects() {
                 <SiNodedotjs />
               </span>
               <span className="px-2 py-1 border border-[#3ECF8E] text-[#3ECF8E] rounded-md text-xs md:text-sm flex items-center gap-1">
-                <img
-                  src="/src/assets/icons/Supa.png"
-                  alt="source"
-                  className="w-3 h-3"
-                />
+                <img src="icons/Supa.png" alt="source" className="w-3 h-3" />
               </span>
             </div>
             <a
@@ -179,11 +175,7 @@ export default function Projects() {
                 <SiNodedotjs />
               </span>
               <span className="px-2 py-1 border border-[#3ECF8E] text-[#3ECF8E] rounded-md text-xs md:text-sm flex items-center gap-1">
-                <img
-                  src="/src/assets/icons/Supa.png"
-                  alt="source"
-                  className="w-3 h-3"
-                />
+                <img src="icons/Supa.png" alt="source" className="w-3 h-3" />
               </span>
             </div>
             <a
@@ -218,11 +210,7 @@ export default function Projects() {
                 <SiNodedotjs />
               </span>
               <span className="px-2 py-1 border border-[#3ECF8E] text-[#3ECF8E] rounded-md text-xs md:text-sm flex items-center gap-1">
-                <img
-                  src="/src/assets/icons/Supa.png"
-                  alt="source"
-                  className="w-3 h-3"
-                />
+                <img src="icons/Supa.png" alt="source" className="w-3 h-3" />
               </span>
             </div>
             <a
