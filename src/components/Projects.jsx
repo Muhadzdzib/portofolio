@@ -159,10 +159,10 @@ export default function Projects() {
         {/* Card 3 */}
         <AnimatedCard delay={0.2}>
           <h3 className="text-xl md:text-2xl font-extrabold mb-2 text-[#FFA02E]">
-            Kost Aisha
+            Kost 01
           </h3>
           <p className="text-gray-300 text-sm md:text-base mb-4 font-semibold">
-            Website sederhana untuk kost Aisha.
+            Website sederhana untuk kost 01.
           </p>
           <div className="flex flex-wrap justify-between items-center border-t border-white/30 pt-3 gap-3">
             <div className="flex flex-wrap gap-2">
@@ -198,11 +198,10 @@ export default function Projects() {
         {/* Card 4 */}
         <AnimatedCard delay={0.3}>
           <h3 className="text-xl md:text-2xl font-extrabold mb-2 text-[#FFA02E]">
-            Website X
+            Website sederhana untuk kost 01.
           </h3>
-          <p className="text-gray-300 text-sm md:text-base mb-4">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod,
-            labore!.
+          <p className="text-gray-300 text-sm md:text-base mb-4 font-semibold">
+            Website sederhana untuk kost 01.
           </p>
           <div className="flex flex-wrap justify-between items-center border-t border-white/30 pt-3 gap-3">
             <div className="flex flex-wrap gap-2">

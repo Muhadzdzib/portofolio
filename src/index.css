@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Amoria";
-  src: url("./assets/font/AMORIA.woff2") format("opentype");
+  src: url("./assets/font/AMORIA.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Antic";
-  src: url("./assets/font/Antic.woff2") format("truetype");
+  src: url("./assets/font/Antic.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
