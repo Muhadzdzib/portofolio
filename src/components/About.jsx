@@ -96,7 +96,7 @@ export default function About() {
             <a
               href="./CvGalang.pdf"
               download="CvGalang.pdf"
-              className="flex items-center border border-blue-600 bg-blue-600 text-white rounded-lg px-4 py-1 font-['Antic'] hover:bg-blue-700 transition-all duration-300"
+              className="flex items-center border border-[white] bg-[#FFA335] text-white rounded-lg px-4 py-1 font-['Antic'] hover:bg-white hover:text-[#FFA335] transition-all duration-300"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
