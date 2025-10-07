@@ -76,21 +76,44 @@ export default function About() {
           </p>
 
           <div className="flex flex-wrap gap-4 items-center pt-5">
-            <div className="border  rounded-lg px-4 py-1">
+            <div className="border rounded-lg px-4 py-1">
               <p className="m-0 opacity-80 font-['Antic']">S.Kom</p>
             </div>
 
-            <div className="border  rounded-lg px-4 py-1">
+            <div className="border rounded-lg px-4 py-1">
               <p className="m-0 opacity-80 font-['Antic']">UI/UX</p>
             </div>
 
-            <div className="border  rounded-lg px-4 py-1">
+            <div className="border rounded-lg px-4 py-1">
               <p className="m-0 opacity-80 font-['Antic']">Frontend</p>
             </div>
 
-            <div className="border  rounded-lg px-4 py-1">
+            <div className="border rounded-lg px-4 py-1">
               <p className="m-0 opacity-80 font-['Antic']">Graphic Designer</p>
             </div>
+
+            {/* Tombol Download CV */}
+            <a
+              href="./CvGalang.pdf"
+              download="CvGalang.pdf"
+              className="flex items-center border border-blue-600 bg-blue-600 text-white rounded-lg px-4 py-1 font-['Antic'] hover:bg-blue-700 transition-all duration-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={2}
+                stroke="currentColor"
+                className="w-4 h-4 mr-2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"
+                />
+              </svg>
+              Download CV
+            </a>
           </div>
         </div>
 
