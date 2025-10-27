@@ -11,9 +11,7 @@ import {
   SiLeaflet,
   SiNeo4J,
   SiPhp,
-  SiFigma,
-  SiAdobephotoshop,
-  SiAdobeillustrator,
+  SiNextdotjs,
 } from "react-icons/si";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -155,10 +153,10 @@ export default function Projects() {
         {/* Card 3 */}
         <AnimatedCard delay={0.2}>
           <h3 className="text-xl md:text-2xl font-extrabold mb-2 text-[#FFA02E]">
-            Kost 01
+            Rumah Nugie
           </h3>
           <p className="text-gray-300 text-sm md:text-base mb-4 font-semibold">
-            Website sederhana untuk kost 01.
+            Website sederhana untuk pengenalan produk UMKM Rumah Nugie.
           </p>
           <div className="flex flex-wrap justify-between items-center border-t border-white/30 pt-3 gap-3">
             <div className="flex flex-wrap gap-2">
@@ -168,11 +166,11 @@ export default function Projects() {
               <span className="px-2 py-1 border border-[#E65100] text-[#E65100] rounded-md text-xs md:text-sm flex items-center">
                 <SiHtml5 />
               </span>
-              <span className="px-2 py-1 border border-[#80DEEA] text-[#80DEEA] rounded-md text-xs md:text-sm flex items-center">
-                <SiReact />
+              <span className="px-2 py-1 border border-[white] text-[white] rounded-md text-xs md:text-sm flex items-center">
+                <SiNextdotjs />
               </span>
-              <span className="px-2 py-1 border border-[#4CAF50] text-[#4CAF50] rounded-md text-xs md:text-sm flex items-center">
-                <SiNodedotjs />
+              <span className="px-2 py-1 border border-[#08BBD9] text-[#08BBD9] rounded-md text-xs md:text-sm flex items-center">
+                <SiTailwindcss />
               </span>
               <span className="px-2 py-1 border border-[#3ECF8E] text-[#3ECF8E] rounded-md text-xs md:text-sm flex items-center gap-1">
                 <img src="icons/Supa.png" alt="source" className="w-3 h-3" />
@@ -190,10 +188,11 @@ export default function Projects() {
         {/* Card 4 */}
         <AnimatedCard delay={0.3}>
           <h3 className="text-xl md:text-2xl font-extrabold mb-2 text-[#FFA02E]">
-            Website sederhana untuk kost 01.
+            Rias Pengantin
           </h3>
           <p className="text-gray-300 text-sm md:text-base mb-4 font-semibold">
-            Website sederhana untuk kost 01.
+            Website sederhana untuk catalog produk & jasa yang ditawarkan oleh
+            Rias Pengantin Dila.
           </p>
           <div className="flex flex-wrap justify-between items-center border-t border-white/30 pt-3 gap-3">
             <div className="flex flex-wrap gap-2">
@@ -203,11 +202,81 @@ export default function Projects() {
               <span className="px-2 py-1 border border-[#E65100] text-[#E65100] rounded-md text-xs md:text-sm flex items-center">
                 <SiHtml5 />
               </span>
-              <span className="px-2 py-1 border border-[#80DEEA] text-[#80DEEA] rounded-md text-xs md:text-sm flex items-center">
-                <SiReact />
+              <span className="px-2 py-1 border border-[white] text-[white] rounded-md text-xs md:text-sm flex items-center">
+                <SiNextdotjs />
               </span>
-              <span className="px-2 py-1 border border-[#4CAF50] text-[#4CAF50] rounded-md text-xs md:text-sm flex items-center">
-                <SiNodedotjs />
+              <span className="px-2 py-1 border border-[#08BBD9] text-[#08BBD9] rounded-md text-xs md:text-sm flex items-center">
+                <SiTailwindcss />
+              </span>
+              <span className="px-2 py-1 border border-[#3ECF8E] text-[#3ECF8E] rounded-md text-xs md:text-sm flex items-center gap-1">
+                <img src="icons/Supa.png" alt="source" className="w-3 h-3" />
+              </span>
+            </div>
+            <a
+              href="#"
+              className="bg-[#FFA02E] text-white text-xs md:text-sm font-extrabold px-3 py-1 rounded-md hover:bg-white hover:text-[#FFA02E] transition"
+            >
+              Live Demo
+            </a>
+          </div>
+        </AnimatedCard>
+
+        {/* Card 5 */}
+        <AnimatedCard delay={0.2}>
+          <h3 className="text-xl md:text-2xl font-extrabold mb-2 text-[#FFA02E]">
+            Kyundangin
+          </h3>
+          <p className="text-gray-300 text-sm md:text-base mb-4 font-semibold">
+            Website penyediaan jasa undangan online.
+          </p>
+          <div className="flex flex-wrap justify-between items-center border-t border-white/30 pt-3 gap-3">
+            <div className="flex flex-wrap gap-2">
+              <span className="px-2 py-1 border border-[#FFA02E] text-white rounded-md text-xs md:text-sm flex items-center">
+                Web Development
+              </span>
+              <span className="px-2 py-1 border border-[#E65100] text-[#E65100] rounded-md text-xs md:text-sm flex items-center">
+                <SiHtml5 />
+              </span>
+              <span className="px-2 py-1 border border-[white] text-[white] rounded-md text-xs md:text-sm flex items-center">
+                <SiNextdotjs />
+              </span>
+              <span className="px-2 py-1 border border-[#08BBD9] text-[#08BBD9] rounded-md text-xs md:text-sm flex items-center">
+                <SiTailwindcss />
+              </span>
+              <span className="px-2 py-1 border border-[#3ECF8E] text-[#3ECF8E] rounded-md text-xs md:text-sm flex items-center gap-1">
+                <img src="icons/Supa.png" alt="source" className="w-3 h-3" />
+              </span>
+            </div>
+            <a
+              href="#"
+              className="bg-[#FFA02E] text-white text-xs md:text-sm font-extrabold px-3 py-1 rounded-md hover:bg-white hover:text-[#FFA02E] transition"
+            >
+              Live Demo
+            </a>
+          </div>
+        </AnimatedCard>
+
+        {/* Card 6 */}
+        <AnimatedCard delay={0.3}>
+          <h3 className="text-xl md:text-2xl font-extrabold mb-2 text-[#FFA02E]">
+            Cafe Pondok Cinta
+          </h3>
+          <p className="text-gray-300 text-sm md:text-base mb-4 font-semibold">
+            Website sederhana untuk landing page Cafe Pondok Cinta Balikpapan.
+          </p>
+          <div className="flex flex-wrap justify-between items-center border-t border-white/30 pt-3 gap-3">
+            <div className="flex flex-wrap gap-2">
+              <span className="px-2 py-1 border border-[#FFA02E] text-white rounded-md text-xs md:text-sm flex items-center">
+                Web Development
+              </span>
+              <span className="px-2 py-1 border border-[#E65100] text-[#E65100] rounded-md text-xs md:text-sm flex items-center">
+                <SiHtml5 />
+              </span>
+              <span className="px-2 py-1 border border-[white] text-[white] rounded-md text-xs md:text-sm flex items-center">
+                <SiNextdotjs />
+              </span>
+              <span className="px-2 py-1 border border-[#08BBD9] text-[#08BBD9] rounded-md text-xs md:text-sm flex items-center">
+                <SiTailwindcss />
               </span>
               <span className="px-2 py-1 border border-[#3ECF8E] text-[#3ECF8E] rounded-md text-xs md:text-sm flex items-center gap-1">
                 <img src="icons/Supa.png" alt="source" className="w-3 h-3" />
