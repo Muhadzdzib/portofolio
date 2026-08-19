@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './', // Menggunakan path relatif agar aman di domain root
+  base: '/portofolio/', // <-- Ini yang bikin error 404!
   plugins: [react()],
-});
+})
